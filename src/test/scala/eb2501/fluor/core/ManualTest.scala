@@ -404,7 +404,6 @@ class ManualTest extends AnyFunSuite:
   test("Transparency") {
     class Item(start: Int) extends Page:
       val x = write { start }
-      println(s"Item $start created")
 
     object Item:
       given Ordering[Item] with
