@@ -1,5 +1,6 @@
 
-package eb2501.fluor.core
+package eb2501.fluor
+package core
 
 import scala.collection.mutable
 

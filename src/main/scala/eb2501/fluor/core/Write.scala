@@ -1,4 +1,5 @@
-package eb2501.fluor.core
+package eb2501.fluor
+package core
 
 trait Write[T] extends Read[T]:
   def set(value: T): Unit
